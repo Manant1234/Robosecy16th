@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robotics Club Secretary - IITK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <header>
+      <div class="logo">
+        <img
+          src="https://roboticsclubiitk.github.io/assets/images/logo.png"
+          alt="Robotics Logo"
+        />
+      </div>
+      <nav class="navbar">
+        <a href="#intro">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <section class="intro" id="intro">
+      <div class="intro-img">
+        <img src="photu.png" alt="Secretary Profile Picture" />
+      </div>
+      <div class="intro-content">
+        <h3>Hello, My name is</h3>
+        <h1>Manant Singhal</h1>
+        <h3>
+          And I'm Secretary at 
+          <span class="multiple-text"><h1>Robotics Club,IITK</h1></span>
+        </h3>
+        <!-- <span><h2>Secretary at Robo Club</h2></span> -->
+        <p>
+          
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Summer Projects 2025</h2>
+
+      <div class="project">
+        <img
+          src="https://assets.skyfilabs.com/images/blog/autonomous-navigation-robot.jpg"
+          alt="Gyrobot"
+        />
+        <div class="project-content">
+          <div class="content-card">
+            <h3>AUTONOMOUS NAVIGATION</h3>
+            <p>
+              Developing a fully autonomous mobile robot using the TortoiseBot
+              platform. Objective is to explore an unknown environment, create a
+              real-time map using SLAM, and navigate efficiently to user-defined
+              goals using path planning algorithms in ROS.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/0d6740135184395.61e3551647bee.png"
+          alt="Space Station"
+        />
+        <div class="project-content">
+          <div class="content-card">
+            <h3>Ball Balancing Bot</h3>
+            <p>
+              Building a robotic system to balance a ball on a flat platform
+              using two servo motors and Raspberry Pi. A camera tracks the
+              ball’s position using computer vision and a PID algorithm keeps
+              the ball centered.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img
+          src="https://p.turbosquid.com/ts-thumb/Om/z7ONV3/fYrBjOwF/hexapod_concept3/png/1420584037/1920x1080/fit_q87/bb9421d066e59b8ca160f144de31250d09206a9a/hexapod_concept3.jpg"
+          alt="Mars Rover"
+        />
+        <div class="project-content">
+          <div class="content-card">
+            <h3>HEXAPOD</h3>
+            <p>
+              Designing and testing the locomotion of a hexapod robot using RC
+              communication. Implements gait patterns for smooth walking and
+              climbing with stability.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img
+          src="https://daily.jstor.org/wp-content/uploads/2018/05/mechanical_turk_1050x700.jpg"
+          alt="Robotic Arm"
+        />
+        <div class="project-content">
+          <div class="content-card">
+            <h3>Mechanical Turk</h3>
+            <p>
+              A robot designed to play chess autonomously — inspired by the
+              historical 'Turk', but built with real engineering, no hidden
+              chess master underneath.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img
+          src="https://www.roboticgizmos.com/wp-content/uploads/2018/12/07/scorpion.jpg"
+          alt="Micromouse"
+        />
+        <div class="project-content">
+          <div class="content-card">
+            <h3>StepXplorer</h3>
+            <p>
+              A stair-climbing robot with ultrasonic sensors to detect and climb
+              stairs. Built with a stable platform to carry objects even over
+              rough terrain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact Me</h2>
+
+      <form id="contact-form">
+        <div class="input-box">
+          <input
+            type="text"
+            name="from_name"
+            placeholder="Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="input-box">
+          <input type="number" name="phone" placeholder="Phone Number" />
+          <input type="text" name="subject" placeholder="Email subject" />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer" id="about">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/anjaliaggarwal456" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/Anjali-023" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+
+        <a
+          href="https://leetcode.com/u/anaggarwal456"
+          target="_blank"
+          class="img-link"
+          title="LeetCode"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+            alt="LeetCode"
+          />
+        </a>
+
+        <a
+          href="https://auth.geeksforgeeks.org/user/anaggarwal456"
+          target="_blank"
+          class="img-link"
+          title="GeeksforGeeks"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
+            alt="GeeksforGeeks"
+          />
+        </a>
+      </div>
+
+      <p class="copyright">&copy; Manant Singhal — All Rights Reserved</p>
+    </footer>
+
+    <div id="chatbot-icon-container">
+      <img src="robo.jpeg" alt="Chatbot" id="chatbot-icon" />
+    </div>
+
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 60,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          color: {
+            value: "#000000",
+          },
+          shape: {
+            type: "circle",
+          },
+          opacity: {
+            value: 0.5,
+            random: false,
+          },
+          size: {
+            value: 3,
+            random: true,
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#000000",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 3,
+            direction: "none",
+            out_mode: "out",
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "grab",
+            },
+            onclick: {
+              enable: true,
+              mode: "push",
+            },
+          },
+          modes: {
+            grab: {
+              distance: 140,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            push: {
+              particles_nb: 4,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+  </body>
+</html>
